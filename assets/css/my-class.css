@@ -24,7 +24,21 @@ html.my-mod-touch * {
 	background-attachment: scroll!important
 }
 
-html[data-my-dynpage] [data-my-cloak] {
+.my-button {
+	display: inline-block;
+	padding: 9px 15px;
+	background-color: #3898ec;
+	color: #fff;
+	border: 0;
+	line-height: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 0
+}
+
+input.my-button {
+	-webkit-appearance: button
+}html[data-my-dynpage] [data-my-cloak] {
 	color: transparent!important
 }
 
@@ -211,6 +225,13 @@ input[type=reset] {
 	-webkit-appearance: button
 }
 
+.my-form-body {
+	background-color: #000;
+	background-image: url('/assets/images/form-bg.jpg');
+	background-position: 0px 0px;
+	background-size: cover;
+  }
+
 .my-form {
 	margin: 0 0 15px
 }
@@ -277,9 +298,67 @@ label {
 	background-color: #eee
 }
 
+
+input.my-button {
+	-webkit-appearance: button
+}
+
 .my-form-label {
 	display: inline-block;
 	cursor: pointer;
 	font-weight: 400;
 	margin-bottom: 0
+}
+
+.my-container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 940px
+}
+
+.my-container:after,
+.my-container:before {
+	content: " ";
+	display: table;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-column-end: 2;
+	grid-row-end: 2
+}
+
+.my-container:after {
+	clear: both
+}
+
+@media screen and (max-width:991px) {
+	.my-container {
+		max-width: 728px
+	}
+}
+
+@media screen and (max-width:479px) {
+	.my-container {
+		max-width: none
+	}
+}
+
+[data-nav-menu-open] {
+	display: block!important;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background: #c8c8c8;
+	text-align: center;
+	overflow: visible;
+	min-width: 200px
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0)
+	}
+	100% {
+		transform: rotate(360deg)
+	}
 }
