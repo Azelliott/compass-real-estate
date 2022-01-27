@@ -183,6 +183,8 @@
   .cards-section {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.78);
+    color: #fff;  
   }
   
   .centered-container {
