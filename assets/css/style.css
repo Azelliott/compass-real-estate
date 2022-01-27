@@ -303,10 +303,12 @@
   
   @media screen and (max-width: 767px) {
     #my-node-office-header {
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
       grid-row-end: span 1;
+      grid-column: 1;
       -ms-grid-column: span 1;
       grid-column-start: span 1;
       -ms-grid-column-span: 1;
@@ -314,10 +316,12 @@
     }
   
     #my-node-office-paragraph {
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
       grid-row-end: span 1;
+      grid-column: 1;
       -ms-grid-column: span 1;
       grid-column-start: span 1;
       -ms-grid-column-span: 1;
@@ -325,10 +329,12 @@
     }
   
     #my-node-industry-header {
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
       grid-row-end: span 1;
+      grid-column: 1;
       -ms-grid-column: span 1;
       grid-column-start: span 1;
       -ms-grid-column-span: 1;
@@ -336,10 +342,12 @@
     }
   
     #my-node-industry-paragraph {
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
       grid-row-end: span 1;
+      grid-column: 1;
       -ms-grid-column: span 1;
       grid-column-start: span 1;
       -ms-grid-column-span: 1;
@@ -351,6 +359,7 @@
   
   @media screen and (max-width: 479px) {
     #my-node-living {
+      grid-column: 1;
       -ms-grid-column: span 1;
       grid-column-start: span 1;
       -ms-grid-column-span: 1;
@@ -358,6 +367,7 @@
     }
   
     #my-node-office {
+      grid-column: 1;
       -ms-grid-column: span 1;
       grid-column-start: span 1;
       -ms-grid-column-span: 1;
@@ -560,10 +570,13 @@
   
   @media screen and (max-width: 479px) {
     #my-node-name {
+      grid-column: 1;
       -ms-grid-column: span 2;
       grid-column-start: span 2;
       -ms-grid-column-span: 2;
       grid-column-end: span 2;
+      grid-column: 1;
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
@@ -571,10 +584,12 @@
     }
   
     #my-node-last-name {
+      grid-column: 1;
       -ms-grid-column: span 2;
       grid-column-start: span 2;
       -ms-grid-column-span: 2;
       grid-column-end: span 2;
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
@@ -582,21 +597,24 @@
     }
   
     #my-node-email {
+      grid-column: 1;
       -ms-grid-column: span 2;
       grid-column-start: span 2;
       -ms-grid-column-span: 2;
       grid-column-end: span 2;
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
       grid-row-end: span 1;
     }
   
-    #my-node-phone {
+    #my-node-phone {grid-column: 1;
       -ms-grid-column: span 2;
       grid-column-start: span 2;
       -ms-grid-column-span: 2;
       grid-column-end: span 2;
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
@@ -759,10 +777,12 @@
   
   @media screen and (max-width: 479px) {
     #my-node-user {
+      grid-column: 1;
       -ms-grid-column: span 2;
       grid-column-start: span 2;
       -ms-grid-column-span: 2;
       grid-column-end: span 2;
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
@@ -770,10 +790,12 @@
     }
   
     #my-node-pass {
+      grid-column: 1;
       -ms-grid-column: span 2;
       grid-column-start: span 2;
       -ms-grid-column-span: 2;
       grid-column-end: span 2;
+      grid-row: 1;
       -ms-grid-row: span 1;
       grid-row-start: span 1;
       -ms-grid-romy-span: 1;
