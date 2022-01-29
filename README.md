@@ -1,9 +1,9 @@
-#This is my first project for Code Institute
+# This is my first project for Code Institute
 
-###Project goal
+### Project goal
 Create responsive page using HTML and CSS
 
-###About
+### About
 Compass Real Estates is an imaginary company specializing in elite estates around the world.
 
 I used random word generator to come up with the name of the project, and keywords
@@ -13,7 +13,7 @@ For styling, there are two CSS files, mostly because it looks cleaner that way a
 style.css - takes care of the layout
 my-class.css - fine tuning classes
 
-###Site 
+### Site 
 Main index page consists of sticky navigation with links, about section containing card elements and contact footer
 
 ![ScreenShot](assets/images/screenshots/compass-index.png)
