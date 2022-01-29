@@ -17,6 +17,8 @@ There are two CSS files, mostly because it looks cleaner that way, at least for 
 style.css - takes care of the layout
 my-class.css - fine tuning classes
 
+### Demo
+[Visit site](https://azelliott.github.io/compass-real-estate/)
 
 ### Site navigation
 #### Index page consists of sticky navigation with links, about section containing card elements and contact footer
