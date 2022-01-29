@@ -377,6 +377,7 @@
     }
   
     #my-node-industry {
+      grid-column: 1;
       -ms-grid-column: span 1;
       grid-column-start: span 1;
       -ms-grid-column-span: 1;
