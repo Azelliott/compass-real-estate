@@ -827,7 +827,7 @@
     display: -ms-grid;
     display: grid;
     margin-top: 40px;
-    -ms-grid-romy-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     grid-auto-columns: 1fr;
     grid-column-gap: 20px;
@@ -848,7 +848,7 @@
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    background-image: url('../images/gallery/interior-8.jpg');
+    background-image: url('../images/gallery/interior-1.jpg');
     background-position: 50% 50%;
     background-size: cover;
     -o-object-fit: cover;
@@ -861,7 +861,7 @@
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   }
   
-  .link.my--current {
+  .link.w--current {
     font-family: Exo, sans-serif;
     color: #fff9f9;
     text-align: center;
@@ -875,7 +875,7 @@
     .gallery-grid-container {
       -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
-      -ms-grid-romy-align: stretch;
+      -ms-grid-row-align: stretch;
       align-self: stretch;
     }
   }
