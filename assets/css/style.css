@@ -528,7 +528,7 @@
   
   .my-form-body {
     background-color: #000;
-    background-image: url('/assets/images/form-bg.jpg');
+    background-image: url('../images/form-bg.jpg');
     background-position: 0px 0px;
     background-size: cover;
   }
