@@ -24,6 +24,9 @@ There are two CSS files, mostly because it looks cleaner that way, at least for 
 ### Demo
 [Compass Real Estates](https://azelliott.github.io/compass-real-estate/)
 
+### Project structure
+![ScreenShot](assets/images/screenshots/project-structure.png)
+
 ### Site navigation
 #### Index page consists of sticky navigation with links, about section containing card elements and contact footer
 
