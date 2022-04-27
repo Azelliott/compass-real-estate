@@ -68,14 +68,16 @@ There are two CSS files, mostly because it looks cleaner that way, at least for 
     * Password (Required)
 
 
-### Testing steps / guidelines
-Tested on Windows 10 
-* Edge
-* Chrome
-* Firefox (versions)
-Ubuntu 22.10
-* Chrome
-* Firefox
+### Tested on
+#### Windows 10 
+* Edge - version 100.0.1185.39
+* Chrome - version 101.0.4951.41
+* Firefox - version 99.0.1
+#### Ubuntu 22.04
+* Chrome - version 101.0.4951.41
+* Firefox - 99.0.1
+#### iPadOS
+* Safari - version 15.3
 
 Multiple resolutions tested
 
