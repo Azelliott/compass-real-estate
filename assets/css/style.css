@@ -499,8 +499,6 @@
   /* Form */
 
   .contact-form {
-    padding-top: 400px;
-    padding-bottom: 47px;
     border-style: hidden;
     border-width: 0px;
     border-color: #8d8d8d;
@@ -568,6 +566,8 @@
   @media screen and (max-width: 767px) {
     .contact-form {
       padding: 40px 20px;
+      padding-top: 350px;
+      padding-bottom: 250px;
     }
   }
   
@@ -677,7 +677,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 800px;
+    height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
