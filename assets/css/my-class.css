@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Great+Vibes&family=Lato:wght@300&family=Oswald&display=swap');
 
+/* Padding and borders for all elements (chrome, firefox, safari) */
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -10,6 +11,7 @@ html {
 	height: 100%
 }
 
+/* Global body font, margins and color */
 body {
 	margin: 0;
 	min-height: 100%;
@@ -24,10 +26,11 @@ html.my-mod-touch * {
 	background-attachment: scroll!important
 }
 
+/* Global Button*/
 .my-button {
 	display: inline-block;
 	padding: 9px 15px;
-	background-color: #3898ec;
+	background-color: #797c7e;
 	color: #fff;
 	border: 0;
 	line-height: inherit;
@@ -42,11 +45,14 @@ input.my-button {
 	color: transparent!important
 }
 
+
 ul {
 	margin-top: 0;
 	margin-bottom: 10px;
 	padding-left: 40px
 }
+
+/* Global headings*/
 
 h1,
 h2,
@@ -94,11 +100,13 @@ h6 {
 	margin-top: 10px
 }
 
+/* Navbar List */
 .my-list-unstyled {
 	padding-left: 0;
 	list-style: none
 }
 
+/* Centered container */
 .my-container {
 	margin-left: auto;
 	margin-right: auto;
@@ -137,6 +145,7 @@ h6 {
 	}
 }
 
+/* Navigation styling*/
 .my-nav {
 	position: relative;
 	background: #ddd;
@@ -215,7 +224,7 @@ h6 {
 	}
 }
 
-/* form */
+/* Form */
 
 button,
 html input[type=button],
@@ -250,12 +259,13 @@ input[type=reset] {
 	background-color: #ffdede
 }
 
+/* Form Labels */
 label {
 	display: block;
 	margin-bottom: 5px;
 	font-weight: 700
 }
-
+/* Form Input */
 .my-input {
 	display: block;
 	width: 100%;
@@ -264,8 +274,8 @@ label {
 	margin-bottom: 10px;
 	font-size: 14px;
 	line-height: 1.428571429;
-	color: #333;
-	background-color: #fff;
+	color: rgb(255, 255, 255);
+	background-color: rgb(190, 187, 187);
 	border: 1px solid #ccc
 }
 
@@ -308,7 +318,7 @@ input.my-button {
 	font-weight: 400;
 	margin-bottom: 0
 }
-
+/* Centered container*/
 .my-container {
 	margin-left: auto;
 	margin-right: auto;
