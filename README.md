@@ -81,6 +81,8 @@ There are two CSS files, mostly because it looks cleaner that way, at least for 
 
 Multiple resolutions tested
 
+No bugs found after testing
+
 ### Attributions
 
 Tools used for this project
@@ -95,6 +97,15 @@ Images for the site
 > https://unsplash.com/
 
 <br/>
+
+## Deployment
+
+To run this locally, first clone the repo with
+
+> git clone https://github.com/Azelliott/compass-real-estate.git
+
+You can then use any server to serve static files (Apache, Nginx, Node.js...),
+or run the files directly from disk
 
 ## Demo
 [Compass Real Estates](https://azelliott.github.io/compass-real-estate/)
